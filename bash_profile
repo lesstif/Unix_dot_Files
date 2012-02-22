@@ -68,6 +68,7 @@ alias  co="co -zLT $*"
 export CADIR="/usr1/entrust/authdata/SubCA"
 alias entenv="source ${CADIR}/env_settings.sh"
 alias jsp='pushd /usr1/lesstif/jrun4/servers/default/default-ear/default-war'
+alias vi=vim
 
 #### Java Home Dir
 export JAVALIB=${HOME}/javalib
