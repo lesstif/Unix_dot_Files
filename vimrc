@@ -17,7 +17,7 @@ cab cpp so /usr/local/share/vim/vim57/syntax/cpp.vim
 set sw=4
 set incsearch
 "set fe=korea  " Default encoding korean
-set nowrapscan " °Ë»öÇÒ ¶§ ¹®¼­ÀÇ ³¡¿¡¼­ ´Ù½Ã Ã³À½À¸·Î µ¹¾Æ°¡Áö ¾Ê´Â´Ù.
+set nowrapscan " ê²€ìƒ‰í•  ë•Œ ë¬¸ì„œì˜ ëì—ì„œ ë‹¤ì‹œ ì²˜ìŒìœ¼ë¡œ ëŒì•„ê°€ì§€ ì•ŠëŠ”ë‹¤.
 set noerrorbells        " turn off beep bells
 set esckeys			" allow usage of cursor keys within insert mode
 "set highlight=8r,db,es,hs,mb,Mr,nu,rs,sr,tb,vr,ws
@@ -43,7 +43,7 @@ set modelines=1
 "set number
 set path=.,,~/.P/vim,~/.P/vim/syntax,~/.P/vim/source,$VIM/syntax/
 "set report=0
-set ruler  "È­¸é ¿ìÃø ÇÏ´Ü¿¡ ÇöÀç Ä¿¼­ÀÇ À§Ä¡(ÁÙ,Ä­)¸¦ º¸¿©ÁØ´Ù.
+set ruler  "í™”ë©´ ìš°ì¸¡ í•˜ë‹¨ì— í˜„ì¬ ì»¤ì„œì˜ ìœ„ì¹˜(ì¤„,ì¹¸)ë¥¼ ë³´ì—¬ì¤€ë‹¤.
 set showcmd	" Show current uncompleted command
 set showmatch
 set showmode
@@ -63,7 +63,7 @@ endif
 
 " ABbreviations
 " Abbreviations for some important numbers:
-  iab YDesc /* <<ÇÁ·Î±×·¥ DESCRIPTION>> <C-J><C-J><Left> ÇÁ·Î±×·¥¸í : <C-J><Left>ÇÁ·Î±×·¥ ±¸ºĞ : <C-J> ÀÛ¼ºÀÚ : <C-J> ÇÁ·Î±×·¥ °³¿ä: <C-J> */ <Up><Up><Up><Up><Up><Up>
+  iab YDesc /* <<í”„ë¡œê·¸ë¨ DESCRIPTION>> <C-J><C-J><Left> í”„ë¡œê·¸ë¨ëª… : <C-J><Left>í”„ë¡œê·¸ë¨ êµ¬ë¶„ : <C-J> ì‘ì„±ì : <C-J> í”„ë¡œê·¸ë¨ ê°œìš”: <C-J> */ <Up><Up><Up><Up><Up><Up>
   iab YLog /* <C-J> $Log:$ <C-J> */
   iab YId #ifndef lint <C-J> static const char cvsid[] = "$Id:$"; <C-J> <Left><Left>#endif
   iab Ypi 3.1415926535897932384626433832795028841972
